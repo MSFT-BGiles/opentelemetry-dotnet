@@ -1,0 +1,179 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.10620.177
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B7408D66-487A-40E1-BDB7-BC17BD28F721}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CONTRIBUTING.md = CONTRIBUTING.md
+		global.json = global.json
+		LICENSE.TXT = LICENSE.TXT
+		NuGet.config = NuGet.config
+		README.md = README.md
+		RELEASENOTES.md = RELEASENOTES.md
+		THIRD-PARTY-NOTICES.TXT = THIRD-PARTY-NOTICES.TXT
+		VERSIONING.md = VERSIONING.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{7CB2F02E-03FA-4FFF-89A5-C51F107623FD}"
+	ProjectSection(SolutionItems) = preProject
+		build\Common.nonprod.props = build\Common.nonprod.props
+		build\Common.prod.props = build\Common.prod.props
+		build\Common.props = build\Common.props
+		build\Common.targets = build\Common.targets
+		build\debug.snk = build\debug.snk
+		Directory.Packages.props = Directory.Packages.props
+		build\docfx.cmd = build\docfx.cmd
+		build\docker-compose.net8.0.yml = build\docker-compose.net8.0.yml
+		build\docker-compose.net9.0.yml = build\docker-compose.net9.0.yml
+		build\GlobalAttrExclusions.txt = build\GlobalAttrExclusions.txt
+		build\opentelemetry-icon-color.png = build\opentelemetry-icon-color.png
+		build\OpenTelemetry.prod.loose.ruleset = build\OpenTelemetry.prod.loose.ruleset
+		build\OpenTelemetry.prod.ruleset = build\OpenTelemetry.prod.ruleset
+		build\OpenTelemetry.proj = build\OpenTelemetry.proj
+		build\OpenTelemetry.test.ruleset = build\OpenTelemetry.test.ruleset
+		build\RELEASING.md = build\RELEASING.md
+		build\stylecop.json = build\stylecop.json
+		build\UnstableCoreLibraries.proj = build\UnstableCoreLibraries.proj
+		build\xunit.runner.json = build\xunit.runner.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{F1D0972B-38CF-49C2-9F4B-4C5DE02FB71D}"
+	ProjectSection(SolutionItems) = preProject
+		.github\codecov.yml = .github\codecov.yml
+		.github\CODEOWNERS = .github\CODEOWNERS
+		.github\dependabot.yml = .github\dependabot.yml
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{A533C800-3DC3-4D04-90A7-0CE7A1E6BDB3}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE\bug_report.yml = .github\ISSUE_TEMPLATE\bug_report.yml
+		.github\ISSUE_TEMPLATE\feature_request.yml = .github\ISSUE_TEMPLATE\feature_request.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E69578EB-B456-4062-A645-877CD964528B}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\add-labels.yml = .github\workflows\add-labels.yml
+		.github\workflows\automation.yml = .github\workflows\automation.yml
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+		.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
+		.github\workflows\Component.BuildTest.yml = .github\workflows\Component.BuildTest.yml
+		.github\workflows\concurrency-tests.yml = .github\workflows\concurrency-tests.yml
+		.github\workflows\docfx.yml = .github\workflows\docfx.yml
+		.github\workflows\dotnet-format.yml = .github\workflows\dotnet-format.yml
+		.github\workflows\markdownlint.yml = .github\workflows\markdownlint.yml
+		.github\workflows\package-validation.yml = .github\workflows\package-validation.yml
+		.github\workflows\post-release.yml = .github\workflows\post-release.yml
+		.github\workflows\prepare-release.yml = .github\workflows\prepare-release.yml
+		.github\workflows\publish-packages-1.0.yml = .github\workflows\publish-packages-1.0.yml
+		.github\workflows\sanitycheck.yml = .github\workflows\sanitycheck.yml
+		.github\workflows\stale.yml = .github\workflows\stale.yml
+		.github\workflows\verifyaotcompat.yml = .github\workflows\verifyaotcompat.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C1542297-8763-4DF4-957C-489ED771C21D}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+		src\Directory.Build.targets = src\Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D2E73927-5966-445C-94E9-EFE6F269C8D5}"
+	ProjectSection(SolutionItems) = preProject
+		test\Directory.Build.props = test\Directory.Build.props
+		test\Directory.Build.targets = test\Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A49299FB-C5CD-4E0E-B7E1-B7867BBD67CC}"
+	ProjectSection(SolutionItems) = preProject
+		src\Shared\ActivityHelperExtensions.cs = src\Shared\ActivityHelperExtensions.cs
+		src\Shared\AssemblyVersionExtensions.cs = src\Shared\AssemblyVersionExtensions.cs
+		src\Shared\DiagnosticDefinitions.cs = src\Shared\DiagnosticDefinitions.cs
+		src\Shared\ExceptionExtensions.cs = src\Shared\ExceptionExtensions.cs
+		src\Shared\Guard.cs = src\Shared\Guard.cs
+		src\Shared\MathHelper.cs = src\Shared\MathHelper.cs
+		src\Shared\PeerServiceResolver.cs = src\Shared\PeerServiceResolver.cs
+		src\Shared\PeriodicExportingMetricReaderHelper.cs = src\Shared\PeriodicExportingMetricReaderHelper.cs
+		src\Shared\PooledList.cs = src\Shared\PooledList.cs
+		src\Shared\ResourceSemanticConventions.cs = src\Shared\ResourceSemanticConventions.cs
+		src\Shared\SemanticConventions.cs = src\Shared\SemanticConventions.cs
+		src\Shared\SpanAttributeConstants.cs = src\Shared\SpanAttributeConstants.cs
+		src\Shared\StatusHelper.cs = src\Shared\StatusHelper.cs
+		src\Shared\ThreadSafeRandom.cs = src\Shared\ThreadSafeRandom.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{2C7DD1DA-C229-4D9E-9AF0-BCD5CD3E4948}"
+	ProjectSection(SolutionItems) = preProject
+		examples\Directory.Build.props = examples\Directory.Build.props
+		examples\Directory.Build.targets = examples\Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{CB401DF1-FF5C-4055-886E-1183E832B2D6}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Directory.Build.props = docs\Directory.Build.props
+		docs\Directory.Packages.props = docs\Directory.Packages.props
+		docs\docfx.json = docs\docfx.json
+		docs\toc.yml = docs\toc.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{44982E0D-C8C6-42DC-9F8F-714981F27CE6}"
+	ProjectSection(SolutionItems) = preProject
+		build\scripts\add-labels.psm1 = build\scripts\add-labels.psm1
+		build\scripts\finalize-publicapi.ps1 = build\scripts\finalize-publicapi.ps1
+		build\scripts\post-release.psm1 = build\scripts\post-release.psm1
+		build\scripts\prepare-release.psm1 = build\scripts\prepare-release.psm1
+		build\scripts\sanitycheck.py = build\scripts\sanitycheck.py
+		build\scripts\test-aot-compatibility.ps1 = build\scripts\test-aot-compatibility.ps1
+		build\scripts\test-threadSafety.ps1 = build\scripts\test-threadSafety.ps1
+		build\scripts\update-changelogs.ps1 = build\scripts\update-changelogs.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetry.Consolidated", "src\OpenTelemetry.Consolidated\OpenTelemetry.Consolidated.csproj", "{B7A8C96C-80AA-8D72-CA6D-271F2944AA5F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "OpenTelemetry.Api", "src\OpenTelemetry.Api\OpenTelemetry.Api.shproj", "{B18EA3EE-BE99-F438-B664-35F9408C6E63}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "OpenTelemetry.Exporter.OpenTelemetryProtocol", "src\OpenTelemetry.Exporter.OpenTelemetryProtocol\OpenTelemetry.Exporter.OpenTelemetryProtocol.shproj", "{E85B1A04-B994-62FC-FC62-F9937375472E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "OpenTelemetry.Api.ProviderBuilderExtensions", "src\OpenTelemetry.Api.ProviderBuilderExtensions\OpenTelemetry.Api.ProviderBuilderExtensions.shproj", "{876A92EB-DCFC-0F16-322C-8FDCC73549E1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "OpenTelemetry", "src\OpenTelemetry\OpenTelemetry.shproj", "{287B6937-E0CC-C3F4-829E-F1BFECB66647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7A8C96C-80AA-8D72-CA6D-271F2944AA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A8C96C-80AA-8D72-CA6D-271F2944AA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A8C96C-80AA-8D72-CA6D-271F2944AA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A8C96C-80AA-8D72-CA6D-271F2944AA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A533C800-3DC3-4D04-90A7-0CE7A1E6BDB3} = {F1D0972B-38CF-49C2-9F4B-4C5DE02FB71D}
+		{E69578EB-B456-4062-A645-877CD964528B} = {F1D0972B-38CF-49C2-9F4B-4C5DE02FB71D}
+		{C1542297-8763-4DF4-957C-489ED771C21D} = {7CB2F02E-03FA-4FFF-89A5-C51F107623FD}
+		{D2E73927-5966-445C-94E9-EFE6F269C8D5} = {7CB2F02E-03FA-4FFF-89A5-C51F107623FD}
+		{2C7DD1DA-C229-4D9E-9AF0-BCD5CD3E4948} = {7CB2F02E-03FA-4FFF-89A5-C51F107623FD}
+		{CB401DF1-FF5C-4055-886E-1183E832B2D6} = {7CB2F02E-03FA-4FFF-89A5-C51F107623FD}
+		{44982E0D-C8C6-42DC-9F8F-714981F27CE6} = {7CB2F02E-03FA-4FFF-89A5-C51F107623FD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55639B5C-0770-4A22-AB56-859604650521}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\OpenTelemetry\OpenTelemetry.projitems*{287b6937-e0cc-c3f4-829e-f1bfecb66647}*SharedItemsImports = 13
+		src\OpenTelemetry.Api.ProviderBuilderExtensions\OpenTelemetry.Api.ProviderBuilderExtensions.projitems*{876a92eb-dcfc-0f16-322c-8fdcc73549e1}*SharedItemsImports = 13
+		src\OpenTelemetry.Api\OpenTelemetry.Api.projitems*{b18ea3ee-be99-f438-b664-35f9408c6e63}*SharedItemsImports = 13
+		src\OpenTelemetry.Api.ProviderBuilderExtensions\OpenTelemetry.Api.ProviderBuilderExtensions.projitems*{b7a8c96c-80aa-8d72-ca6d-271f2944aa5f}*SharedItemsImports = 5
+		src\OpenTelemetry.Api\OpenTelemetry.Api.projitems*{b7a8c96c-80aa-8d72-ca6d-271f2944aa5f}*SharedItemsImports = 5
+		src\OpenTelemetry\OpenTelemetry.projitems*{b7a8c96c-80aa-8d72-ca6d-271f2944aa5f}*SharedItemsImports = 5
+		src\OpenTelemetry.Exporter.OpenTelemetryProtocol\OpenTelemetry.Exporter.OpenTelemetryProtocol.projitems*{e85b1a04-b994-62fc-fc62-f9937375472e}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
