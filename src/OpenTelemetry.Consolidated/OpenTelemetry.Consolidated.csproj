@@ -4,7 +4,6 @@
     <TargetFrameworks>$(TargetFrameworksForLibraries)</TargetFrameworks>
     <Description>OpenTelemetry .NET SDK</Description>
     <MinVerTagPrefix>core-</MinVerTagPrefix>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>

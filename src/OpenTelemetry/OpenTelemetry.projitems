@@ -4,11 +4,12 @@
     <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'"> $(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
     <SharedGUID>755bec43-4109-4c81-b03b-655911435408</SharedGUID>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
     <Import_RootNamespace>OpenTelemetry</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)**\*.cs" Exclude="bin\**\*;obj\**\*;**\AssemblyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)**\*.cs" Exclude="bin\**\*;obj\**\*;**\*AssemblyInfo.cs" />
   </ItemGroup>
 </Project>
